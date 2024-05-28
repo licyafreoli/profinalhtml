@@ -1,0 +1,153 @@
+.main-subtitle {
+    font-family: "Libre Baskerville", serif;
+    font-size: 4rem;
+    letter-spacing: 2px;
+    padding-bottom: 1.5rem;
+}
+
+.main-content {
+    width: 40%;
+    line-height: 1.5;
+    padding-bottom: 6rem;
+    font-size: 1.25rem;
+}
+
+.btn {
+   
+    color: #7fcc96;
+    background-color: transparent;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #eeeeee;
+    
+    transition: ease-in-out .3s;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+ background-color: #04411f;
+    color: #ffffff;
+}
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Libre Baskerville", serif;
+    background-color:#5ABD6D;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(29, 24, 24);
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    width: 100%;
+}
+
+#App {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    width: 90%;
+    background-color:#ABDF75;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.25rem 6rem;
+    box-shadow: 0 0 3px rgba(255, 255, 255, 0.582)202;
+    border-radius: 0 0 8px 8px;
+}
+
+header h1 {
+   font-family: "Libre Baskerville", serif;
+    font-size: 4rem;
+    color: #f3f3f3;
+    cursor: pointer;
+}
+
+.header-list {
+    display: flex;
+    gap: 5rem;
+    align-items: center;
+}
+
+.header-list li a {
+    font-weight: 600;
+    font-size: 1.25rem;
+    color: #c4c4c4;
+    transition: all 0.5s;
+}
+
+.header-list li a:hover {
+    color: #000000;
+}
+
+ h5{
+    font-family: "Libre Baskerville", serif;
+    font-weight: 900;
+    color: #60695C;
+    margin: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ 
+main {
+    width: 90%;
+    height: 100%;
+    color: #60695C;
+    margin: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#D6F9DD;
+    border-radius: 8px;
+    padding: 4rem 12rem;
+}
+.principal{
+    display: flex;
+}
+
+
+
+footer {
+    width: 100%;
+    height: 10rem;
+    background-color: #ABDF75;
+    color: #60695C;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: .75rem;
+    gap: 1rem;
+}
+
+.footer-list {
+    display: flex;
+    gap: 4rem;
+}
+
+.footer-list li a {   
+    color:#60695C;
+    transition: all .3s;
+}
+
+.footer-list a:hover {
+    color:#C5D6D8;
+}
